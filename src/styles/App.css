@@ -1,0 +1,231 @@
+
+/*GENERAL..................................................................................................................................*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.navbar,*/
+.navbar__row,
+.page__wrapper 
+{
+
+    overflow: hidden;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    font-family: Arial;
+
+        background: beige;
+
+}
+
+h1{
+    font-size: 30px;
+    margin-top:15px  ;
+    color: steelblue;
+}
+
+p{
+    margin-top:10px  ;
+}
+
+hr{
+    margin: 15px;
+    border: 1px solid steelblue;
+}
+
+h3{
+    color: steelblue;
+}
+
+select{
+   border: 4px solid steelblue;
+   color: steelblue;
+}
+
+button:hover{
+    color: orangered;
+}
+
+ul{
+    list-style-type: none ;
+}
+
+
+/*COMPONENTS...................................................................................................................................*/
+
+/*Posts...........................................................................................................*/
+.posts{
+    width: 80%;
+}
+
+.posts h1{
+ font-size:40px;
+ font-family: Fantasy ;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 4px solid steelblue;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.post-btn {
+  margin-right: 0.5rem;
+}
+
+.post-enter {
+  transform: translateX(350px);
+}
+
+.post-enter-active {
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
+}
+
+.post-exit {
+  opacity: 1;
+}
+
+.post-exit-active {
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
+}
+
+
+/*Post....................................................................................................*/
+.post-item{
+    display: flex;
+    flex-direction: row;
+}
+.post__btns{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.post__btns button{
+    margin-bottom: 10px;
+}
+
+
+/*navbar...................................................................................................*/
+.navbar {
+    /*height: 80px;*/
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    background: orangered;
+    margin-bottom: 50px;
+}
+
+.navbar__row{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar__links {
+    /*margin-left: auto;*/
+    display: flex;
+
+
+    justify-content: flex-end;
+    width: 25%;
+    align-items: center;
+    overflow: visible;
+
+}
+
+.navbar__links div{
+    margin-left: 10%;
+    overflow: visible;
+}
+
+
+/*link...................................................................................................*/
+.link{
+    color: white;
+    font-size:24px ;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.link:hover{
+    color: steelblue;
+}
+
+/*page.....................................................................................................*/
+.page__wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.page {
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.page__current {
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.page__wrapper{
+    margin-bottom: 50px;
+    display: flex;
+      flex-wrap: wrap;
+
+}
+
+.page {
+    border: 4px solid steelblue;
+    margin: 5px;
+}
+
+.page:hover{
+    border:4px dashed orangered ;
+    background:orangered ;
+    color: white;
+}
+
+.page__current{
+    border:4px dashed orangered ;
+    background:orangered ;
+    color: white;
+}
+
+
+/*page-about.....................................................................................................*/
+.page__about{
+    color: steelblue;
+    font-weight: bold;
+    width: 80%;
+}
+
+.post__id__page{
+    width: 80%;
+}
+
+.navbar .logo{
+    font-family:'Fantasy', fantasy;
+    font-size: 50px;
+    color: lightblue;
+}
+
