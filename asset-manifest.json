@@ -1,13 +1,13 @@
 {
   "main.css": "/postservice/static/css/main.1796ba3f.chunk.css",
-  "main.js": "/postservice/static/js/main.0f98247a.chunk.js",
-  "main.js.map": "/postservice/static/js/main.0f98247a.chunk.js.map",
+  "main.js": "/postservice/static/js/main.689054c2.chunk.js",
+  "main.js.map": "/postservice/static/js/main.689054c2.chunk.js.map",
   "static/js/1.b0e02299.chunk.js": "/postservice/static/js/1.b0e02299.chunk.js",
   "static/js/1.b0e02299.chunk.js.map": "/postservice/static/js/1.b0e02299.chunk.js.map",
   "runtime~main.js": "/postservice/static/js/runtime~main.4ea26211.js",
   "runtime~main.js.map": "/postservice/static/js/runtime~main.4ea26211.js.map",
   "static/css/main.1796ba3f.chunk.css.map": "/postservice/static/css/main.1796ba3f.chunk.css.map",
   "index.html": "/postservice/index.html",
-  "precache-manifest.9f2c637b52c19eef663ba4f51de23902.js": "/postservice/precache-manifest.9f2c637b52c19eef663ba4f51de23902.js",
+  "precache-manifest.325bc58250246758d55bdc6b4f596ac4.js": "/postservice/precache-manifest.325bc58250246758d55bdc6b4f596ac4.js",
   "service-worker.js": "/postservice/service-worker.js"
 }
